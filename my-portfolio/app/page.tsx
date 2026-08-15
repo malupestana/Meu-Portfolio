@@ -33,12 +33,12 @@ export default function Home() {
               <span className="tag-subtitle">Desenvolvedora Backend</span>
               <h1 className="hero-title">Olá, meu nome é <span>Maria</span></h1>
               <p className="hero-desc">
-                Sou desenvolvedora backend com +6 anos de experiência construindo APIs robustas, microsserviços escaláveis e pipelines de dados. Apaixonada por código limpo, performance e arquiteturas que realmente funcionam em produção.
+                Sou desenvolvedora com foco em backend, atualmente me graduando na UFLA, construindo APIs robustas, microsserviços escaláveis e pipelines de dados. Apaixonada por código limpo, performance e arquiteturas que realmente funcionam em produção.
               </p>
               <div className="hero-buttons">
                 <a href="#projetos" className="btn btn-primary">Ver projetos</a>
                 <a href="#experiencia" className="btn btn-outline">Experiência</a>
-                <a href="https://linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+                <a href="www.linkedin.com/in/marialpestana" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </a>
               </div>
@@ -79,14 +79,12 @@ export default function Home() {
           <div className="tech-pills">
             <span className="pill">Spring Boot</span>
             <span className="pill">FastAPI</span>
-            <span className="pill">PostgreSQL</span>
-            <span className="pill">MongoDB</span>
-            <span className="pill">Redis</span>
             <span className="pill">Docker</span>
             <span className="pill">Kubernetes</span>
             <span className="pill">GitHub Actions</span>
             <span className="pill">REST APIs</span>
             <span className="pill">Microsserviços</span>
+            <span className="pill">MySQL</span>
           </div>
         </section>
 
@@ -180,42 +178,14 @@ export default function Home() {
             <div className="timeline-item">
               <div className="timeline-card">
                 <div className="timeline-header">
-                  <h3>Desenvolvedora Backend Sênior</h3>
-                  <span className="timeline-date"><i className="far fa-calendar"></i> 2022 - presente</span>
+                  <h3>Estagiária em Inovação e Melhoramento de Processos</h3>
+                  <span className="timeline-date"><i className="far fa-calendar"></i> Atualmente</span>
                 </div>
                 <div className="timeline-company">
-                  <span>TechCorp Brasil</span>
-                  <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> São Paulo, SP</span>
+                  <span>Projeto / Estágio</span>
+                  <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> Lavras, MG</span>
                 </div>
-                <p className="timeline-desc">Liderança técnica de squad de plataforma. Arquitetura de microsserviços, mentoria de devs júnior e implementação de práticas de observabilidade.</p>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-card">
-                <div className="timeline-header">
-                  <h3>Desenvolvedora Backend Plena</h3>
-                  <span className="timeline-date"><i className="far fa-calendar"></i> 2020 - 2022</span>
-                </div>
-                <div className="timeline-company">
-                  <span>Fintech StartupXP</span>
-                  <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> Remoto</span>
-                </div>
-                <p className="timeline-desc">Desenvolvimento de APIs de pagamento reguladas pelo Banco Central. Integração com sistemas legados e modernização gradual do monolito.</p>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-card">
-                <div className="timeline-header">
-                  <h3>Desenvolvedora Backend Júnior</h3>
-                  <span className="timeline-date"><i className="far fa-calendar"></i> 2018 - 2020</span>
-                </div>
-                <div className="timeline-company">
-                  <span>Agência Digital Nova</span>
-                  <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> Campinas, SP</span>
-                </div>
-                <p className="timeline-desc">Criação de backends para aplicações web e mobile. Foco em performance, segurança e testes automatizados.</p>
+                <p className="timeline-desc">Atuação em um projeto focado no mapeamento, melhoramento e inovação de processos, unindo análise crítica, metodologias eficientes e tecnologia.</p>
               </div>
             </div>
           </div>
