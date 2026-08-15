@@ -25,8 +25,7 @@ export default function Home() {
           <div className="hero-content">
             <div className="hero-image">
               <div className="avatar-placeholder">
-                <i className="fas fa-user"></i>
-                {/* <img src="/sua-foto.jpg" alt="Foto de Maria" /> */}
+                <img src="/minhafoto.jpeg" alt="Foto de Maria" /> 
               </div>
             </div>
             <div className="hero-text">
@@ -38,7 +37,7 @@ export default function Home() {
               <div className="hero-buttons">
                 <a href="#projetos" className="btn btn-primary">Ver projetos</a>
                 <a href="#experiencia" className="btn btn-outline">Experiência</a>
-                <a href="www.linkedin.com/in/marialpestana" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+                <a href="https://www.linkedin.com/in/marialpestana" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </a>
               </div>
@@ -178,14 +177,14 @@ export default function Home() {
             <div className="timeline-item">
               <div className="timeline-card">
                 <div className="timeline-header">
-                  <h3>Estagiária em Inovação e Melhoramento de Processos</h3>
+                  <h3>Projeto de Inovação e Melhoramento de Processos</h3>
                   <span className="timeline-date"><i className="far fa-calendar"></i> Atualmente</span>
                 </div>
                 <div className="timeline-company">
-                  <span>Projeto / Estágio</span>
+                  <span>Projeto de Inovação</span>
                   <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> Lavras, MG</span>
                 </div>
-                <p className="timeline-desc">Atuação em um projeto focado no mapeamento, melhoramento e inovação de processos, unindo análise crítica, metodologias eficientes e tecnologia.</p>
+                <p className="timeline-desc">Atuo no Projeto de Inovação PENSE - Programa de Inovação em Serviços Editoriais Acadêmicos, focados na melhoria contínua realizando o mapeamento (visão As-Is) e a modelagem otimizada (visão To-Be) de fluxos de trabalho utilizando a notação BPMN. Desenhando e otimizando fluxos de trabalho editoriais, centralizando processos dispersos para permitir o monitoramento em tempo real e a redução de falhas operacionais.</p>
               </div>
             </div>
           </div>

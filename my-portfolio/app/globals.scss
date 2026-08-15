@@ -29,7 +29,13 @@ html {
 }
 
 body {
-    background-color: var(--bg-dark);
+    background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.015) 12%, rgba(0, 0, 0, 0) 34%),
+        radial-gradient(circle at top left, rgba(217, 142, 225, 0.18) 0%, rgba(182, 101, 192, 0.1) 26%, rgba(0, 0, 0, 0) 58%),
+        radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.01) 14%, rgba(0, 0, 0, 0) 34%),
+        radial-gradient(circle at bottom right, rgba(182, 101, 192, 0.16) 0%, rgba(217, 142, 225, 0.08) 24%, rgba(0, 0, 0, 0) 58%),
+        radial-gradient(circle at center, rgba(10, 11, 16, 0.38) 0%, rgba(10, 11, 16, 0.82) 35%, rgba(10, 11, 16, 0.99) 72%, rgba(10, 11, 16, 1) 100%),
+        linear-gradient(135deg, #d8c3e6 0%, #a64cb0 16%, #4f256f 42%, #0f0b15 66%, #040407 100%);
     color: var(--text-primary);
     font-family: var(--font-sans);
     line-height: 1.6;
@@ -45,19 +51,20 @@ body {
     opacity: 0.85; /* Opacidade aumentada para brilhar mais */
     border-radius: 50%;
 }
+
 .blob-1 {
     top: -150px;
     left: -150px;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(147, 51, 234, 0.45) 0%, rgba(0,0,0,0) 70%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.42) 0%, rgba(217, 142, 225, 0.34) 18%, rgba(182, 101, 192, 0.22) 40%, rgba(0,0,0,0) 72%);
 }
 .blob-2 {
     bottom: 5%;
     right: -100px;
     width: 700px;
     height: 700px;
-    background: radial-gradient(circle, rgba(217, 142, 225, 0.35) 0%, rgba(0,0,0,0) 70%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.34) 0%, rgba(182, 101, 192, 0.28) 18%, rgba(217, 142, 225, 0.18) 40%, rgba(0,0,0,0) 72%);
 }
 
 /* Container Principal */
@@ -137,8 +144,8 @@ nav {
 }
 
 .avatar-placeholder {
-    width: 300px;
-    height: 300px;
+    width: clamp(220px, 26vw, 300px);
+    height: clamp(220px, 26vw, 300px);
     border-radius: 50%;
     border: 2px solid rgba(217, 142, 225, 0.5);
     background: linear-gradient(145deg, #1f1b2e, #110e19);
@@ -159,6 +166,8 @@ nav {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 35%;
+    display: block;
 }
 
 .hero-text {
