@@ -95,72 +95,40 @@ export default function Home() {
           </div>
 
           <div className="projects-grid">
-            <a href="https://github.com/seu-user/repo1" target="_blank" rel="noopener noreferrer" className="project-card">
+          {/* Projeto 1 */}
+            <a href="https://github.com/malupestana/infraestrutura-compjr" target="_blank" rel="noopener noreferrer" className="project-card">
               <div className="project-header">
-                <span className="project-tag">Backend</span>
-                <div className="project-links">
-                  <i className="fab fa-github"></i>
-                </div>
-              </div>
-              <h3>API REST de E-commerce</h3>
-              <p>Sistema completo de e-commerce com autenticação JWT, pagamentos e gestão de estoque. Suporta mais de 10k requisições/min.</p>
-              <div className="project-tech">
-                <span>Java</span>
-                <span>Spring Boot</span>
-                <span>PostgreSQL</span>
-                <span>Redis</span>
-              </div>
-            </a>
-
-            <a href="https://github.com/seu-user/repo2" target="_blank" rel="noopener noreferrer" className="project-card">
-              <div className="project-header">
-                <span className="project-tag">Data Engineering</span>
+                <span className="project-tag">DevOps & CI/CD</span>
                 <div className="project-links">
                   <i className="fab fa-github"></i>
                   <i className="fas fa-external-link-alt"></i>
                 </div>
               </div>
-              <h3>Pipeline de Dados</h3>
-              <p>Pipeline automatizado para ingestão e transformação de dados em tempo real, processando 2M de registros diários.</p>
+              <h3>Pipeline CI/CD com Node.js</h3>
+              <p>Projeto focado em infraestrutura (Comp Jr). Implementa uma pipeline completa automatizando integração contínua (ESLint e Jest), análise de qualidade via SonarCloud e entrega contínua (deploy) no Render.</p>
+              <div className="project-tech">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>Jest</span>
+                <span>SonarCloud</span>
+                <span>Render</span>
+              </div>
+            </a>
+          {/* Projeto 2 */}
+            <a href="https://github.com/malupestana/projeto-CienciaEGovernan-aDeDados-RioDeJaneiro" target="_blank" rel="noopener noreferrer" className="project-card">
+              <div className="project-header">
+                <span className="project-tag">Data Science & Analysis</span>
+                <div className="project-links">
+                  <i className="fab fa-github"></i>
+                </div>
+              </div>
+              <h3>Análise Socioeconômica do RJ</h3>
+              <p>Trabalho individual (Desafio Zetta Lab) focado na coleta, limpeza e análise de dados da base SIDRA/IBGE. O estudo levanta indicadores de infraestrutura e vulnerabilidade para evidenciar disparidades socioeconômicas através de visualizações gráficas.</p>
               <div className="project-tech">
                 <span>Python</span>
-                <span>Apache Kafka</span>
-                <span>Docker</span>
-                <span>MongoDB</span>
-              </div>
-            </a>
-
-            <a href="https://github.com/seu-user/repo3" target="_blank" rel="noopener noreferrer" className="project-card">
-              <div className="project-header">
-                <span className="project-tag">Segurança</span>
-                <div className="project-links">
-                  <i className="fab fa-github"></i>
-                </div>
-              </div>
-              <h3>Microserviço de Autenticação</h3>
-              <p>Serviço centralizado de autenticação e autorização com suporte a OAuth2, SAML e autenticação biométrica.</p>
-              <div className="project-tech">
-                <span>Java</span>
-                <span>Spring Security</span>
-                <span>Keycloak</span>
-                <span>MySQL</span>
-              </div>
-            </a>
-
-            <a href="https://github.com/seu-user/repo4" target="_blank" rel="noopener noreferrer" className="project-card">
-              <div className="project-header">
-                <span className="project-tag">Open Source</span>
-                <div className="project-links">
-                  <i className="fab fa-github"></i>
-                </div>
-              </div>
-              <h3>Biblioteca de Algoritmos</h3>
-              <p>Coleção open source de estruturas de dados e algoritmos otimizados em C++ com benchmarks comparativos.</p>
-              <div className="project-tech">
-                <span>C++</span>
-                <span>CMake</span>
-                <span>Git</span>
-                <span>GitHub Actions</span>
+                <span>Pandas</span>
+                <span>Matplotlib</span>
+                <span>IBGE/SIDRA</span>
               </div>
             </a>
           </div>
