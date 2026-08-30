@@ -482,3 +482,39 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.05);
     margin-top: 5rem;
 }
+
+/* == RESPONSIVIDADE (MOBILE) == */
+@media (max-width: 768px) {
+    /* 1. Ajuste de margens gerais da página */
+    section {
+        padding: 4rem 1.5rem; 
+    }
+
+    /* 2. Empilhando a seção Sobre (Foto em cima, Texto embaixo) */
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    /* 3. Centralizando os botões e permitindo que quebrem de linha */
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+    /* 4. Transformando os cards de projetos em uma única coluna */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* 5. Ajustes na linha do tempo da Experiência */
+    .timeline::before {
+        left: 0; /* Move a linha central para a borda esquerda no celular */
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 2rem; /* Afasta o card da linha */
+    }
+}
