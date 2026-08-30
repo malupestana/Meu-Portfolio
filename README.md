@@ -23,7 +23,9 @@ Se você deseja clonar e rodar este projeto em sua máquina local, siga os passo
    git clone [https://github.com/malupestana/Portfolio-da-Malu.git]
 
 
-   👩‍🎓 Sobre Mim
+   
+## 👩‍🎓 Sobre Mim
+
 Sou estudante de computação na UFLA e atuo em um projeto com foco em inovação, mapeamento e melhoramento de processos (BPMN). Meu foco principal de desenvolvimento é no Back-end, construindo soluções, APIs e arquiteturas robustas utilizando tecnologias como Java (Spring Boot), Python (Pandas/Scripts) e C++.
 
 Apaixonada por código limpo, lógica de programação, estruturas de dados e desenvolvimento de sistemas eficientes.
